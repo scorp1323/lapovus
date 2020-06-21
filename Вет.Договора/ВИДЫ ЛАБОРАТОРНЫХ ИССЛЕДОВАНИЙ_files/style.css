@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	background: url(../images/fon.gif);
+	font-size: 13px;
+	font-family: Arial;
+}
+
+#globalcontainer {
+	width: 1260px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+#zakladka {
+	width: 1260px;
+	height: 20px;
+	margin: 0 auto;
+	background: #000000;
+}
+
+#headerr {
+	width: 1260px;
+	height: 150px;
+	margin: 0 auto;
+	background-image: url(../images/Header_new.jpg);
+}
+
+#loginpass {
+	background: #ffffff;
+	opacity: 0.7;
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 2px 2px;
+	width: 160px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 12px;
+	float: right;
+}
+
+#login, #pass {
+	width: 150px;
+	height: 15px;
+	margin-bottom: 7px;
+	background-color: #cdcdcd;
+}
+
+#enterbutton {
+    border: none;
+    background-color: transparent;
+    color: #000000;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+#reg {
+	float: right;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 1px;
+}
+
+#regform {
+	margin: 40px 0 0 150px;
+	font-weight: bold;
+}
+
+#regform input {
+	margin-bottom: 10px;
+	width: 300px;
+}
+
+#regform *{
+	display: block;
+}
+
+#foothead {
+	overflow: hidden;
+	width: 1260px;
+	height: 35px;
+	margin: 0 auto;
+}
+
+#hmenu {
+	float: left;
+	width: 766px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+#hmenu ul {
+	padding: 7px 0 0 7px;
+	margin: 0;
+}
+
+#hmenu li {
+	list-style-type: none;
+	display: inline;
+}
+
+#hmenu a {
+	text-decoration: none;
+	padding: 8px 17px 7px 17px;
+	margin-left: 0;
+	border-color: #898888;
+    border-style: solid;
+    border-width: 1px;
+	color: #000000;
+	font-weight: bold;
+	border-radius: 15px 0 15px 0;
+	background: #819790;
+	background: -o-linear-gradient(rgb(32,50,44),rgb(161,201,188));
+	background: -moz-linear-gradient(#20322c, #a1c9bc);
+	background: -webkit-linear-gradient(#20322c, #a1c9bc);
+}
+
+#hmenu a:hover {
+	color: #ffffff;
+	/*backgraund: -ms-linear-gradient(45deg, transparent 50%, rgba(0,186,0,0.2) 50%, rgba(0,186,0,0.2));*/
+}
+
+#search {
+	text-align: right;
+	margin-top: -2px;;
+	padding-right: 10px;
+	background: #cdcdcd;
+}
+
+#searchInput {
+	width: 235px;
+}
+
+#searchInput, #searchButton {
+	vertical-align: middle;
+}
+
+#container {
+	overflow: hidden;
+	width: 1260px;
+	margin: 0 auto;
+}
+
+#left {
+	float: left;
+	width: 220px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+#vmenu {
+	margin: 0 auto;
+	width: 195px;
+	font-size: 14px;
+}
+
+#vmenu ul {
+	padding: 0;
+	margin: 30px 5px 30px 40px;
+}
+
+#vmenu li {
+	list-style-image: url(../images/stick.gif);
+	text-indent: -0.8em;
+}
+
+#vmenu li a {
+	padding: 2px 0 5px 7px;
+	font-weight: 900;
+	color: #000000;
+	display: block;
+}
+
+#vmenu li a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+#lcontainer {
+	text-align: center;
+
+}
+
+#begun {
+	text-align: center;
+	margin: 20px 0 20px 27px;
+}
+
+#center {
+	margin: 0 0 0 215px;
+	width: 830px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+#imgreklamma {
+	width: 624px;
+	padding-bottom: 20px;
+}
+
+#center_news {
+	padding: 12px 12px 12px 12px;
+}
+
+#center_news label{
+	font-weight: bold;
+}
+
+#center_news p{
+	margin: 5px 0 0 0;
+}
+
+#pcenter_reklama{	margin: 20px;}
+
+#tcenreklama{	padding: 12px 0 12px 0;}
+
+#opisjobblock{	margin-left: -12px;}
+
+.inp_contact {
+	width: 300px;
+}
+
+#contact_form textarea {
+	width: 300px;
+}
+
+#contact_form  textarea {
+	height: 200px;
+}
+
+#contact_form td {
+	padding: 10px 0 10px 0;
+	vertical-align: top;
+}
+
+.mandreltd1 {
+	width: 120px;
+}
+
+.centerletter {
+	text-align: center;
+}
+
+.vp {
+	margin: 20px 0 0 0;
+}
+
+#tsub td {
+	min-width: 335px;
+}
+
+#tsub tr,td {
+	height: 10px;
+}
+
+.centerletter a, #tsub a {
+	text-decoration: none;
+	color: #036;
+}
+
+
+.centerletter a:hover, #tsub a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.regul {
+	text-align: justify;
+	text-indent: 20px;
+}
+
+.centerp {
+	margin: 0;
+	text-align: justify;
+	text-indent: 20px;
+}
+
+#center_news h2 {
+	text-indent: 20px;
+	text-decoration: underline;
+}
+
+#textjob {	height: 820px;
+	overflow: auto;
+}
+
+#indexpages {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #060;
+}
+
+#indexpages a {
+	text-decoration: none;
+}
+
+.samle_cat {	color: #696969;
+	font-style: italic;
+	font-weight: 100;}
+
+#right {
+    float: right;
+	width: 220px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+#rcontainer {
+	margin: 20px 10px 20px 10px;
+}
+
+#foot {
+	clear: both;
+	position: relative;
+	width: 1260px;
+	height: 40px;
+	padding-top: 6px;
+	margin: 0 auto;
+	background: #666;
+	background: -o-linear-gradient(rgb(255,255,255),rgb(0,0,0));
+	background: -moz-linear-gradient(#ffffff, #000000);
+	background: -webkit-linear-gradient(#ffffff, #000000);
+}
+
+#foot img{
+	margin-right: 10px;
+	float: right;
+}
+
+#foot label {
+	font-size: 9px;
+	font-weight: bold;
+	float: left;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+/*Yandex CSS*/
+span.yandex_date {
+	font-size: 85%;
+	margin-right:0.5em;
+}
+
+div.yandex_informer	{
+	font-size: 85%;
+	margin-bottom: 0.3em;
+}
+
+div.yandex_title {
+	font-size: 100%;
+	margin-bottom: 0.5em;
+}
+
+div.yandex_title a
+{
+}
+
+div.yandex_allnews	{
+	font-size: 80%;
+	margin-top: 0.3em;
+}
+
+div.yandex_allnews	{
+	font-size: 80%;
+	margin-top: 0.3em;
+}
+
+div.yandex_annotation {
+	font-size: 85%;
+	margin-bottom: 0.5em;
+}
